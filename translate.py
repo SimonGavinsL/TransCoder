@@ -38,10 +38,10 @@ def get_parser():
 
     # model
     parser.add_argument("--model_path", type=str,
-                        default="", help="Model path")
-    parser.add_argument("--src_lang", type=str, default="",
+                        default="model_1.pth", help="Model path")
+    parser.add_argument("--src_lang", type=str, default="java",
                         help=f"Source language, should be either {', '.join(SUPPORTED_LANGUAGES[:-1])} or {SUPPORTED_LANGUAGES[-1]}")
-    parser.add_argument("--tgt_lang", type=str, default="",
+    parser.add_argument("--tgt_lang", type=str, default="python",
                         help=f"Target language, should be either {', '.join(SUPPORTED_LANGUAGES[:-1])} or {SUPPORTED_LANGUAGES[-1]}")
     parser.add_argument("--BPE_path", type=str,
                         default="data/BPE_with_comments_codes", help="Path to BPE codes.")
@@ -92,14 +92,17 @@ class Translator:
         assert len(reloaded['decoder'].keys()) == len(
             list(p for p, _ in self.decoder.state_dict().items()))
 
-        self.encoder.cuda()
-        self.decoder.cuda()
+        # self.encoder.cuda()
+        # self.decoder.cuda()
+        self.encoder.cpu()
+        self.decoder.cpu()
 
         self.encoder.eval()
         self.decoder.eval()
         self.bpe_model = fastBPE.fastBPE(os.path.abspath(params.BPE_path))
 
-    def translate(self, input, lang1, lang2, n=1, beam_size=1, sample_temperature=None, device='cuda:0'):
+    # def translate(self, input, lang1, lang2, n=1, beam_size=1, sample_temperature=None, device='cuda:0'):
+    def translate(self, input, lang1, lang2, n=1, beam_size=1, sample_temperature=None, device='cpu'):
         with torch.no_grad():
             assert lang1 in {'python', 'java', 'cpp'}, lang1
             assert lang2 in {'python', 'java', 'cpp'}, lang2
@@ -172,12 +175,47 @@ if __name__ == '__main__':
 
     # read input code from stdin
     src_sent = []
-    input = sys.stdin.read().strip()
+    # input = sys.stdin.read().strip()
 
-    with torch.no_grad():
-        output = translator.translate(
-            input, lang1=params.src_lang, lang2=params.tgt_lang, beam_size=params.beam_size)
+    # with open('input_code.java', 'r') as f:
+    #     input = f.read()
+    # with torch.no_grad():
+    #     output = translator.translate(
+    #         input, lang1=params.src_lang, lang2=params.tgt_lang, beam_size=params.beam_size)
+    # for out in output:
+    #     print("=" * 20)
+    #     print(out)
 
-    for out in output:
-        print("=" * 20)
-        print(out)
+    # for entry in os.scandir('experiment/mutants'):
+    for entry in os.scandir('experiment_jp_test/original'):
+        # info = entry.name.split('.')[0].split('__')
+        # stmt, nb, desc = info[0], info[1], info[2]
+        desc = entry.name.split('.')[0]
+
+        with open(entry.path, 'r') as f:
+            input = f.read()
+
+        with torch.no_grad():
+            output = translator.translate(
+                input, lang1=params.src_lang, lang2=params.tgt_lang, beam_size=params.beam_size)
+
+        out_func = ''
+        for out in output:
+            # print("=" * 20)
+            # print(out)
+            out_func += out
+        out_func_2 = out_func.split(' ')
+        out_func_2[1] = 'f_filled'
+        out_func = ' '.join(out_func_2)
+
+        try:
+            with open('data/evaluation/geeks_for_geeks_successful_test_scripts/python/' + desc + '.py') as f:
+                lines = f.readlines()
+                lines.insert(lines.index('#TOFILL\n') + 1, out_func + '\n')
+
+            with open('experiment_jp_test/origintests/' + desc + '.py', 'w') as f:
+                f.write(''.join(lines))
+        except FileNotFoundError as e:
+            print(e)
+            continue
+
