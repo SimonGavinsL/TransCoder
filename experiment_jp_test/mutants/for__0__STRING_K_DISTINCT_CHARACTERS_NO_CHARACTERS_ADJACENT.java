@@ -1,0 +1,1 @@
+static String findString ( int n , int k ) { String res = " " ; int count = 0 ; for ( int i = 0 ; i < n - k ; i ++ ) { res = res + ( char ) ( ' a ' + count ) ; count ++ ; if ( count == k ) count = 0 ; } return res ; }

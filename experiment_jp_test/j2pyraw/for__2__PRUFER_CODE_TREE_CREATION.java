@@ -1,0 +1,2 @@
+class X { static void printTreeEdges ( int prufer [ ] , int m ) { int vertices = m + 2 ; int vertex_set [ ] = new int [ vertices ] ; System . out . print ( " \n The ▁ edge ▁ set ▁ E ( G ) ▁ is ▁ : \n " ) ; int j = 0 ; j = 0 ; for ( int i = 0 ; i < vertices ; i ++ ) { if ( vertex_set [ i ] == 0 && j == 0 ) { System . out . print ( " ( " + ( i + 1 ) + " , ▁ " ) ; j ++ ; } else if ( vertex_set [ i ] == 0 && j == 1 ) System . out . print ( ( i + 1 ) + " ) \n " ) ; } }
+ }

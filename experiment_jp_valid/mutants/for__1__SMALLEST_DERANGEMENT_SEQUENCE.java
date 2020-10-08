@@ -1,0 +1,1 @@
+static void generate_derangement ( int N ) { int S [ ] = new int [ N + 1 ] ; int D [ ] = new int [ N + 1 ] ; for ( int i = 1 ; i <= N ; i ++ ) System . out . print ( D [ i ] + " ▁ " ) ; System . out . println ( ) ; }

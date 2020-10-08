@@ -1,0 +1,2 @@
+class X { static void NFG ( int a [ ] , int n , int freq [ ] ) { Stack < Integer > s = new Stack < Integer > ( ) ; s . push ( 0 ) ; int res [ ] = new int [ n ] ; while ( s . size ( ) > 0 ) { res [ s . peek ( ) ] = - 1 ; s . pop ( ) ; } for ( int i = 0 ; i < n ; i ++ ) { System . out . print ( res [ i ] + " ▁ " ) ; } }
+ }

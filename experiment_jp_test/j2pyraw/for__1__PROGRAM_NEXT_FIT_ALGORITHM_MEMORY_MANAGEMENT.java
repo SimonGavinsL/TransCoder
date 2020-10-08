@@ -1,0 +1,2 @@
+class X { static void NextFit ( int blockSize [ ] , int m , int processSize [ ] , int n ) { int allocation [ ] = new int [ n ] , j = 0 ; Arrays . fill ( allocation , - 1 ) ; System . out . print ( " \n Process ▁ No . \tProcess ▁ Size\tBlock ▁ no . \n " ) ; }
+ }

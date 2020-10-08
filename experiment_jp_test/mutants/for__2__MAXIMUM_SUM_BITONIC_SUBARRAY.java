@@ -1,0 +1,1 @@
+static int maxSumBitonicSubArr ( int arr [ ] , int n ) { int [ ] msis = new int [ n ] ; int [ ] msds = new int [ n ] ; int max_sum = Integer . MIN_VALUE ; msis [ 0 ] = arr [ 0 ] ; msds [ n - 1 ] = arr [ n - 1 ] ; return max_sum ; }

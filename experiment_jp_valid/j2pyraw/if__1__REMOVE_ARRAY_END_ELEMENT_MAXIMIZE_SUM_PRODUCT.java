@@ -1,0 +1,2 @@
+class X { static int solve ( int dp [ ] [ ] , int a [ ] , int low , int high , int turn ) { dp [ low ] [ high ] = Math . max ( a [ low ] * turn + solve ( dp , a , low + 1 , high , turn + 1 ) , a [ high ] * turn + solve ( dp , a , low , high - 1 , turn + 1 ) ) ; return dp [ low ] [ high ] ; }
+ }

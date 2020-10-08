@@ -1,0 +1,2 @@
+class X { static void pointClip ( int XY [ ] [ ] , int n , int Xmin , int Ymin , int Xmax , int Ymax ) { System . out . printf ( " Point ▁ inside ▁ the ▁ viewing ▁ pane : \n " ) ; System . out . printf ( " \n Point ▁ outside ▁ the ▁ viewing ▁ pane : \n " ) ; }
+ }

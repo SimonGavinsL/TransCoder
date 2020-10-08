@@ -1,0 +1,2 @@
+class X { static String findSum ( String str1 , String str2 ) { String str = " " ; int n1 = str1 . length ( ) , n2 = str2 . length ( ) ; str1 = new StringBuilder ( str1 ) . reverse ( ) . toString ( ) ; str2 = new StringBuilder ( str2 ) . reverse ( ) . toString ( ) ; int carry = 0 ; str = new StringBuilder ( str ) . reverse ( ) . toString ( ) ; return str ; }
+ }

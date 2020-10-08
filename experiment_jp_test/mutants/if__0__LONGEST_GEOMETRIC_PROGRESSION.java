@@ -1,0 +1,1 @@
+static int lenOfLongestGP ( int set [ ] , int n ) { if ( n == 2 ) { return ( set [ 1 ] % set [ 0 ] == 0 ? 1 : 0 ) ; } Arrays . sort ( set ) ; int L [ ] [ ] = new int [ n ] [ n ] ; int llgp = 1 ; return llgp ; }

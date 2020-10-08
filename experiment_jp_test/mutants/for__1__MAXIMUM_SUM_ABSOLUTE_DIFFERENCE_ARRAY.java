@@ -1,0 +1,1 @@
+static int MaxSumDifference ( Integer [ ] a , int n ) { List < Integer > finalSequence = new ArrayList < Integer > ( ) ; Arrays . sort ( a ) ; int MaximumSum = 0 ; MaximumSum = MaximumSum + Math . abs ( finalSequence . get ( n - 1 ) - finalSequence . get ( 0 ) ) ; return MaximumSum ; }

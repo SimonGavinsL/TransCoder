@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="experiment/original/PROGRAM_AREA_SQUARE.java"><function><type><specifier>static</specifier> <name>int</name></type> <name>areaSquare</name> <parameter_list>( <parameter><decl><type><name>int</name></type> <name>side</name></decl></parameter> )</parameter_list> <block>{<block_content> <decl_stmt><decl><type><name>int</name></type> <name>area</name> <init>= <expr><name>side</name> <operator>*</operator> <name>side</name></expr></init></decl> ;</decl_stmt> <return>return <expr><name>area</name></expr> ;</return> </block_content>}</block></function>
+</unit>

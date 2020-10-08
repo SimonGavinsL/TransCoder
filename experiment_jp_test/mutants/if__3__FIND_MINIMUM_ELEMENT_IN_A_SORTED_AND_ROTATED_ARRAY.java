@@ -1,0 +1,1 @@
+static int findMin ( int arr [ ] , int low , int high ) { int mid = low + ( high - low ) / 2 ; if ( arr [ high ] > arr [ mid ] ) return findMin ( arr , low , mid - 1 ) ; return findMin ( arr , mid + 1 , high ) ; }

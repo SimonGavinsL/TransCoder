@@ -1,0 +1,1 @@
+static boolean checkDivisibility ( String num ) { int length = num . length ( ) ; if ( length % 3 == 1 ) { num += "00" ; length += 2 ; } else if ( length % 3 == 2 ) { num += "0" ; length += 1 ; } int sum = 0 , p = 1 ; sum = Math . abs ( sum ) ; return ( sum % 13 == 0 ) ; }

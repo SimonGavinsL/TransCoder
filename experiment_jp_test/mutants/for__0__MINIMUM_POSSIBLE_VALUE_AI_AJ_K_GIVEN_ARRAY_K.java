@@ -1,0 +1,1 @@
+static void pairs ( int arr [ ] , int n , int k ) { int smallest = Integer . MAX_VALUE ; int count = 0 ; System . out . println ( " Minimal ▁ Value ▁ = ▁ " + smallest ) ; System . out . println ( " Total ▁ Pairs ▁ = ▁ " + count ) ; }

@@ -1,0 +1,2 @@
+class X { static void KMP ( int m , int n , String str2 , String str1 ) { int pos = 0 , len = 0 ; int [ ] p = new int [ m + 1 ] ; int k = 0 ; char [ ] ch1 = str1 . toCharArray ( ) ; char [ ] ch2 = str2 . toCharArray ( ) ; System . out . println ( " Shift ▁ = ▁ " + pos ) ; System . out . println ( " Prefix ▁ = ▁ " + str1 . substring ( 0 , len ) ) ; }
+ }

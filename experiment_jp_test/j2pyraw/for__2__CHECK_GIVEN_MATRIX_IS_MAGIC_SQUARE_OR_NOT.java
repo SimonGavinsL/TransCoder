@@ -1,0 +1,2 @@
+class X { static boolean isMagicSquare ( int mat [ ] [ ] ) { int sum = 0 , sum2 = 0 ; if ( sum != sum2 ) return false ; for ( int i = 0 ; i < N ; i ++ ) { int colSum = 0 ; for ( int j = 0 ; j < N ; j ++ ) colSum += mat [ j ] [ i ] ; if ( sum != colSum ) return false ; } return true ; }
+ }

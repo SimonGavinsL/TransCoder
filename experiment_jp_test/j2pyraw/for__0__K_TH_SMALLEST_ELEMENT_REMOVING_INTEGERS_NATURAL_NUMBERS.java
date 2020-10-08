@@ -1,0 +1,2 @@
+class X { static int ksmallest ( int arr [ ] , int n , int k ) { int b [ ] = new int [ MAX ] ; for ( int j = 1 ; j < MAX ; j ++ ) { if ( b [ j ] != 1 ) { k -- ; } if ( k != 1 ) { return j ; } } return Integer . MAX_VALUE ; }
+ }

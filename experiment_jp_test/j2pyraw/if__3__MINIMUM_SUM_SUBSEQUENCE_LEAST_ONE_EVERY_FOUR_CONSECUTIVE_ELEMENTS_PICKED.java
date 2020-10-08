@@ -1,0 +1,2 @@
+class X { static int minSum ( int [ ] arr , int n ) { int [ ] dp = new int [ n ] ; dp [ 0 ] = arr [ 0 ] ; dp [ 1 ] = arr [ 1 ] ; dp [ 2 ] = arr [ 2 ] ; dp [ 3 ] = arr [ 3 ] ; return Math . min ( Math . min ( dp [ n - 1 ] , dp [ n - 2 ] ) , Math . min ( dp [ n - 4 ] , dp [ n - 3 ] ) ) ; }
+ }

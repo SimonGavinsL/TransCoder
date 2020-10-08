@@ -1,0 +1,1 @@
+static void sortArray ( int arr [ ] , int n , int A , int B , int C ) { int index = - 1 ; int maximum = - 999999 ; int i = 0 , j = n - 1 ; int [ ] new_arr = new int [ n ] ; int k = 0 ; new_arr [ n - 1 ] = maximum ; }

@@ -1,0 +1,1 @@
+static int findSubarraySum ( int [ ] arr , int n ) { int res = 0 ; HashMap < Integer , Integer > m = new HashMap < Integer , Integer > ( ) ; for ( Map . Entry < Integer , Integer > x : m . entrySet ( ) ) if ( x . getValue ( ) == 1 ) res += x . getKey ( ) ; return res ; }

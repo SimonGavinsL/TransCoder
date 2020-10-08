@@ -1,0 +1,1 @@
+static void diagonalsquare ( int mat [ ] [ ] , int row , int column ) { System . out . print ( " ▁ Diagonal ▁ one ▁ : ▁ " ) ; System . out . println ( ) ; System . out . print ( " ▁ Diagonal ▁ two ▁ : ▁ " ) ; }

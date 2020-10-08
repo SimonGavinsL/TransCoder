@@ -1,0 +1,2 @@
+class X { static void minAbsSumPair ( int arr [ ] , int arr_size ) { int inv_count = 0 ; int l , r , min_sum , sum , min_l , min_r ; if ( arr_size < 2 ) { System . out . println ( " Invalid ▁ Input " ) ; return ; } min_l = 0 ; min_r = 1 ; min_sum = arr [ 0 ] + arr [ 1 ] ; System . out . println ( " ▁ The ▁ two ▁ elements ▁ whose ▁ " + " sum ▁ is ▁ minimum ▁ are ▁ " + arr [ min_l ] + " ▁ and ▁ " + arr [ min_r ] ) ; }
+ }

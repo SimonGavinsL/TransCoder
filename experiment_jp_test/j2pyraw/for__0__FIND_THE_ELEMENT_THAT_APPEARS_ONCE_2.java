@@ -1,0 +1,2 @@
+class X { static int singleNumber ( int a [ ] , int n ) { HashSet < Integer > s = new HashSet < Integer > ( ) ; int arr_sum = 0 ; for ( int i : a ) { arr_sum += i ; } int set_sum = 0 ; for ( int i : s ) { set_sum += i ; } return ( 3 * set_sum - arr_sum ) / 2 ; }
+ }

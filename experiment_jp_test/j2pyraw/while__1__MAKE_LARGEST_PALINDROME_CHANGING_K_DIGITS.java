@@ -1,0 +1,2 @@
+class X { static String maximumPalinUsingKChanges ( String str , int k ) { char palin [ ] = str . toCharArray ( ) ; String ans = " " ; int l = 0 ; int r = str . length ( ) - 1 ; l = 0 ; r = str . length ( ) - 1 ; return ans ; }
+ }

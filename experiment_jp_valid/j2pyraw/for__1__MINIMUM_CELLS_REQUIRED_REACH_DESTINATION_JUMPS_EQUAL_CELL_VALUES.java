@@ -1,0 +1,2 @@
+class X { static int minCells ( int mat [ ] [ ] , int m , int n ) { int dp [ ] [ ] = new int [ m ] [ n ] ; dp [ 0 ] [ 0 ] = 1 ; if ( dp [ m - 1 ] [ n - 1 ] != Integer . MAX_VALUE ) return dp [ m - 1 ] [ n - 1 ] ; return - 1 ; }
+ }

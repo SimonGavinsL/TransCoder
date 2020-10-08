@@ -1,0 +1,2 @@
+class X { public static int jumpSearch ( int [ ] arr , int x ) { int n = arr . length ; int step = ( int ) Math . floor ( Math . sqrt ( n ) ) ; int prev = 0 ; while ( arr [ prev ] < x ) { prev ++ ; if ( prev == Math . min ( step , n ) ) return - 1 ; } return - 1 ; }
+ }

@@ -1,0 +1,2 @@
+class X { static int longSubarrWthSumDivByK ( int arr [ ] , int n , int k ) { HashMap < Integer , Integer > um = new HashMap < Integer , Integer > ( ) ; int mod_arr [ ] = new int [ n ] ; int max = 0 ; int curr_sum = 0 ; return max ; }
+ }

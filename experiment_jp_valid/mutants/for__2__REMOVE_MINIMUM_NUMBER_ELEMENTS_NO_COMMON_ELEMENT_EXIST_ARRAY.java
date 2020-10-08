@@ -1,0 +1,1 @@
+public static int minRemove ( int a [ ] , int b [ ] , int n , int m ) { HashMap < Integer , Integer > countA = new HashMap < Integer , Integer > ( ) ; HashMap < Integer , Integer > countB = new HashMap < Integer , Integer > ( ) ; int res = 0 ; Set < Integer > s = countA . keySet ( ) ; return res ; }

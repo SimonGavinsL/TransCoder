@@ -1,0 +1,1 @@
+static int findMinInsertions ( char str [ ] , int l , int h ) { return ( str [ l ] == str [ h ] ) ? findMinInsertions ( str , l + 1 , h - 1 ) : ( Integer . min ( findMinInsertions ( str , l , h - 1 ) , findMinInsertions ( str , l + 1 , h ) ) + 1 ) ; }

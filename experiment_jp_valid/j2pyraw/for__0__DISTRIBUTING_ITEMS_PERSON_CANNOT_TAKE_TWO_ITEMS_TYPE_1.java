@@ -1,0 +1,2 @@
+class X { static boolean checkCount ( int arr [ ] , int n , int k ) { HashMap < Integer , Integer > hash = new HashMap < > ( ) ; for ( Map . Entry x : hash . entrySet ( ) ) if ( ( int ) x . getValue ( ) > 2 * k ) return false ; return true ; }
+ }

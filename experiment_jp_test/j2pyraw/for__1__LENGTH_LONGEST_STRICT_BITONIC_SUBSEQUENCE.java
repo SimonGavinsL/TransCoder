@@ -1,0 +1,2 @@
+class X { static int longLenStrictBitonicSub ( int arr [ ] , int n ) { HashMap < Integer , Integer > inc = new HashMap < Integer , Integer > ( ) ; HashMap < Integer , Integer > dcr = new HashMap < Integer , Integer > ( ) ; int len_inc [ ] = new int [ n ] ; int len_dcr [ ] = new int [ n ] ; int longLen = 0 ; for ( int i = 0 ; i < n ; i ++ ) if ( longLen < ( len_inc [ i ] + len_dcr [ i ] - 1 ) ) longLen = len_inc [ i ] + len_dcr [ i ] - 1 ; return longLen ; }
+ }

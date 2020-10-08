@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+""" generated source for module for__0__COMPOSITE_NUMBER """
+class X(object):
+    """ generated source for class X """
+    @classmethod
+    def isComposite(cls, n):
+        """ generated source for method isComposite """
+        if n <= 1:
+            print " False "
+        if n <= 3:
+            print " False "
+        if n % 2 == 0 or n % 3 == 0:
+            return True
+        return False
+

@@ -1,0 +1,2 @@
+class X { public static int SumOfKsubArray ( int arr [ ] , int k ) { int sum = 0 ; Deque < Integer > S = new LinkedList < > ( ) , G = new LinkedList < > ( ) ; int i = 0 ; sum += arr [ S . peekFirst ( ) ] + arr [ G . peekFirst ( ) ] ; return sum ; }
+ }

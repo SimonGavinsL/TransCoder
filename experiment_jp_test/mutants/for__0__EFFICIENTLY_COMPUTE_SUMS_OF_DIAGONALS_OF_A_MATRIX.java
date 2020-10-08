@@ -1,0 +1,1 @@
+static void printDiagonalSums ( int [ ] [ ] mat , int n ) { int principal = 0 , secondary = 0 ; System . out . println ( " Principal ▁ Diagonal : " + principal ) ; System . out . println ( " Secondary ▁ Diagonal : " + secondary ) ; }

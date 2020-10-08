@@ -1,0 +1,2 @@
+class X { static void middlesum ( int mat [ ] [ ] , int n ) { int row_sum = 0 , col_sum = 0 ; System . out . println ( " Sum ▁ of ▁ middle ▁ row ▁ = ▁ " + row_sum ) ; System . out . println ( " Sum ▁ of ▁ middle ▁ column ▁ = ▁ " + col_sum ) ; }
+ }

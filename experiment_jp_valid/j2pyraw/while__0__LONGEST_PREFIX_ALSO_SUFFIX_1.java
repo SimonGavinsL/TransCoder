@@ -1,0 +1,2 @@
+class X { static int longestPrefixSuffix ( String s ) { int n = s . length ( ) ; int lps [ ] = new int [ n ] ; lps [ 0 ] = 0 ; int len = 0 ; int i = 1 ; int res = lps [ n - 1 ] ; return ( res > n / 2 ) ? n / 2 : res ; }
+ }

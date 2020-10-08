@@ -1,0 +1,1 @@
+static int findMaxVal ( int [ ] arr , int n , int num , int maxLimit ) { int ind ; int val ; int [ ] [ ] dp = new int [ n ] [ maxLimit + 1 ] ; for ( val = maxLimit ; val >= 0 ; val -- ) { if ( dp [ n - 1 ] [ val ] == 1 ) { return val ; } } return - 1 ; }

@@ -1,0 +1,1 @@
+public static double maxAverageOfPath ( int cost [ ] [ ] , int N ) { int dp [ ] [ ] = new int [ N + 1 ] [ N + 1 ] ; dp [ 0 ] [ 0 ] = cost [ 0 ] [ 0 ] ; return ( double ) dp [ N - 1 ] [ N - 1 ] / ( 2 * N - 1 ) ; }

@@ -1,0 +1,1 @@
+static int maximumNumberDistinctPrimeRange ( int m , int n ) { long factorCount [ ] = new long [ n + 1 ] ; boolean prime [ ] = new boolean [ n + 1 ] ; int max = ( int ) factorCount [ m ] ; int num = m ; return num ; }

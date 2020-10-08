@@ -1,0 +1,2 @@
+class X { static void solveWordWrap ( int arr [ ] , int n , int k ) { int i , j ; int currlen ; int cost ; int dp [ ] = new int [ n ] ; int ans [ ] = new int [ n ] ; dp [ n - 1 ] = 0 ; ans [ n - 1 ] = n - 1 ; i = 0 ; while ( i < n ) { System . out . print ( ( i + 1 ) + " ▁ " + ( ans [ i ] + 1 ) + " ▁ " ) ; i = ans [ i ] + 1 ; } }
+ }

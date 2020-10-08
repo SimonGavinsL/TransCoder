@@ -1,0 +1,2 @@
+class X { static int printKDistinct ( int arr [ ] , int n , int k ) { Map < Integer , Integer > h = new HashMap < Integer , Integer > ( ) ; if ( h . size ( ) < k ) return - 1 ; int dist_count = 0 ; return - 1 ; }
+ }

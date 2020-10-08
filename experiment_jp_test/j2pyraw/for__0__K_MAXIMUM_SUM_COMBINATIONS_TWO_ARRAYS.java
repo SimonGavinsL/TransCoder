@@ -1,0 +1,2 @@
+class X { static void KMaxCombinations ( int A [ ] , int B [ ] , int N , int K ) { PriorityQueue < Integer > pq = new PriorityQueue < Integer > ( Collections . reverseOrder ( ) ) ; int count = 0 ; while ( count < K ) { System . out . println ( pq . peek ( ) ) ; pq . remove ( ) ; count ++ ; } }
+ }

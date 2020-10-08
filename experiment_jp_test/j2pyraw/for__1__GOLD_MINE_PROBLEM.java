@@ -1,0 +1,2 @@
+class X { static int getMaxGold ( int gold [ ] [ ] , int m , int n ) { int goldTable [ ] [ ] = new int [ m ] [ n ] ; int res = goldTable [ 0 ] [ 0 ] ; for ( int i = 1 ; i < m ; i ++ ) res = Math . max ( res , goldTable [ i ] [ 0 ] ) ; return res ; }
+ }

@@ -1,0 +1,1 @@
+static void findDivision ( String str , int a , int b ) { int len = str . length ( ) ; int [ ] lr = new int [ len + 1 ] ; lr [ 0 ] = ( ( int ) str . charAt ( 0 ) - ( int ) '0' ) % a ; int [ ] rl = new int [ len + 1 ] ; rl [ len - 1 ] = ( ( int ) str . charAt ( len - 1 ) - ( int ) '0' ) % b ; int power10 = 10 ; System . out . println ( " NO " ) ; }

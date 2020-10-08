@@ -1,0 +1,1 @@
+static void sortUsingHash ( int a [ ] , int n ) { int max = Arrays . stream ( a ) . max ( ) . getAsInt ( ) ; int min = Math . abs ( Arrays . stream ( a ) . min ( ) . getAsInt ( ) ) ; int hashpos [ ] = new int [ max + 1 ] ; int hashneg [ ] = new int [ min + 1 ] ; }

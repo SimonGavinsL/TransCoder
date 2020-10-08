@@ -1,0 +1,2 @@
+<ns0:unit xmlns:ns0="http://www.srcML.org/srcML/src" filename="experiment/original/COUNT_SET_BITS_IN_AN_INTEGER_1.java" language="Java" revision="1.0.0"><ns0:function><ns0:type><ns0:specifier>public</ns0:specifier> <ns0:specifier>static</ns0:specifier> <ns0:name>int</ns0:name></ns0:type> <ns0:name>countSetBits</ns0:name> <ns0:parameter_list>( <ns0:parameter><ns0:decl><ns0:type><ns0:name>int</ns0:name></ns0:type> <ns0:name>n</ns0:name></ns0:decl></ns0:parameter> )</ns0:parameter_list> <ns0:block>{<ns0:block_content> </ns0:block_content>}</ns0:block></ns0:function>
+</ns0:unit>

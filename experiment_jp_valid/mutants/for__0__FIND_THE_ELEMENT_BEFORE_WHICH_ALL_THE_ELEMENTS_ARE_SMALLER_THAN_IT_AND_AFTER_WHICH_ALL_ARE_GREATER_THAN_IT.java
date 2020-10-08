@@ -1,0 +1,1 @@
+static int findElement ( int [ ] arr , int n ) { int [ ] leftMax = new int [ n ] ; leftMax [ 0 ] = Integer . MIN_VALUE ; int rightMin = Integer . MAX_VALUE ; for ( int i = n - 1 ; i >= 0 ; i -- ) { if ( leftMax [ i ] < arr [ i ] && rightMin > arr [ i ] ) return i ; rightMin = Math . min ( rightMin , arr [ i ] ) ; } return - 1 ; }

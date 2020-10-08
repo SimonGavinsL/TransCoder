@@ -1,0 +1,2 @@
+class X { public static int sumOfSubstrings ( String num ) { int n = num . length ( ) ; int sumofdigit [ ] = new int [ n ] ; sumofdigit [ 0 ] = num . charAt ( 0 ) - '0' ; int res = sumofdigit [ 0 ] ; return res ; }
+ }

@@ -1,0 +1,2 @@
+class X { static void luDecomposition ( int [ ] [ ] mat , int n ) { int [ ] [ ] lower = new int [ n ] [ n ] ; int [ ] [ ] upper = new int [ n ] [ n ] ; System . out . println ( setw ( 2 ) + " ▁ ▁ ▁ ▁ ▁ Lower ▁ Triangular " + setw ( 10 ) + " Upper ▁ Triangular " ) ; for ( int i = 0 ; i < n ; i ++ ) { for ( int j = 0 ; j < n ; j ++ ) System . out . print ( setw ( 4 ) + lower [ i ] [ j ] + " \t " ) ; System . out . print ( " \t " ) ; for ( int j = 0 ; j < n ; j ++ ) System . out . print ( setw ( 4 ) + upper [ i ] [ j ] + " \t " ) ; System . out . print ( " \n " ) ; } }
+ }

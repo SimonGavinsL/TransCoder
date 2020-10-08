@@ -1,0 +1,2 @@
+class X { static void maxProduct ( int arr [ ] , int n ) { if ( n < 2 ) { System . out . println ( " No ▁ pairs ▁ exists " ) ; return ; } if ( n == 2 ) { System . out . println ( arr [ 0 ] + " ▁ " + arr [ 1 ] ) ; return ; } int posa = Integer . MIN_VALUE , posb = Integer . MIN_VALUE ; int nega = Integer . MIN_VALUE , negb = Integer . MIN_VALUE ; if ( nega * negb > posa * posb ) System . out . println ( " Max ▁ product ▁ pair ▁ is ▁ { " + nega + " , ▁ " + negb + " } " ) ; else System . out . println ( " Max ▁ product ▁ pair ▁ is ▁ { " + posa + " , ▁ " + posb + " } " ) ; }
+ }

@@ -1,0 +1,1 @@
+static boolean isMajority ( int a [ ] , int n ) { HashMap < Integer , Integer > mp = new HashMap < Integer , Integer > ( ) ; for ( Map . Entry < Integer , Integer > x : mp . entrySet ( ) ) if ( x . getValue ( ) >= n / 2 ) return true ; return false ; }

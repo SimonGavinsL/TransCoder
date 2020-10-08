@@ -1,0 +1,1 @@
+static void printLevels ( Vector < Vector < Integer > > graph , int V , int x ) { int level [ ] = new int [ V ] ; boolean marked [ ] = new boolean [ V ] ; Queue < Integer > que = new LinkedList < Integer > ( ) ; que . add ( x ) ; level [ x ] = 0 ; marked [ x ] = true ; System . out . println ( " Nodes " + " ▁ " + " Level " ) ; }

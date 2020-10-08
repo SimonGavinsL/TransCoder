@@ -1,0 +1,2 @@
+class X { static boolean isCornerPresent ( String str , String corner ) { int n = str . length ( ) ; int cl = corner . length ( ) ; return ( str . substring ( 0 , cl ) . equals ( corner ) && str . substring ( n - cl , n ) . equals ( corner ) ) ; }
+ }

@@ -1,0 +1,1 @@
+static int waysToArrange ( int N , int K , int [ ] k ) { int [ ] [ ] C = new int [ N + 1 ] [ N + 1 ] ; int i , j ; int [ ] dp = new int [ K + 1 ] ; int count = 0 ; dp [ 0 ] = 1 ; for ( i = 0 ; i < K ; i ++ ) { dp [ i + 1 ] = ( dp [ i ] * C [ count + k [ i ] - 1 ] [ k [ i ] - 1 ] ) ; count += k [ i ] ; } return dp [ K ] ; }

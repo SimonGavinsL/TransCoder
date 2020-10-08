@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="experiment/original/FIND_SUM_EVEN_INDEX_BINOMIAL_COEFFICIENTS_1.java"><function><type><specifier>static</specifier> <name>int</name></type> <name>evenbinomialCoeffSum</name> <parameter_list>( <parameter><decl><type><name>int</name></type> <name>n</name></decl></parameter> )</parameter_list> <block>{<block_content> <return>return <expr><operator>(</operator> <literal type="number">1</literal> <operator>&lt;&lt;</operator> <operator>(</operator> <name>n</name> <operator>-</operator> <literal type="number">1</literal> <operator>)</operator> <operator>)</operator></expr> ;</return> </block_content>}</block></function>
+</unit>

@@ -1,0 +1,2 @@
+class X { static int findLargestSumPair ( ) { int first , second ; if ( arr [ 0 ] > arr [ 1 ] ) { first = arr [ 0 ] ; second = arr [ 1 ] ; } else { first = arr [ 1 ] ; second = arr [ 0 ] ; } return ( first + second ) ; }
+ }

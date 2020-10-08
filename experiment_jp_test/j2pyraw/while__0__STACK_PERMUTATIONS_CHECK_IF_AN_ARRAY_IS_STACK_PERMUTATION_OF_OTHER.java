@@ -1,0 +1,2 @@
+class X { static boolean checkStackPermutation ( int ip [ ] , int op [ ] , int n ) { Queue < Integer > input = new LinkedList < > ( ) ; Queue < Integer > output = new LinkedList < > ( ) ; Stack < Integer > tempStack = new Stack < > ( ) ; return ( input . isEmpty ( ) && tempStack . isEmpty ( ) ) ; }
+ }

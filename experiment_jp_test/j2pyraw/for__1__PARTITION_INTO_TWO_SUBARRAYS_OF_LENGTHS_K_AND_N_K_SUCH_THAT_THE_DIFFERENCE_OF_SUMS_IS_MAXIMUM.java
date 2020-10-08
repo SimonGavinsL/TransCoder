@@ -1,0 +1,2 @@
+class X { static int maxDifference ( int arr [ ] , int N , int k ) { int M , S = 0 , S1 = 0 , max_difference = 0 ; int temp ; M = Math . max ( k , N - k ) ; for ( int i = 0 ; i < M ; i ++ ) S1 += arr [ i ] ; max_difference = S1 - ( S - S1 ) ; return max_difference ; }
+ }

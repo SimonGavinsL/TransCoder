@@ -1,0 +1,1 @@
+static void printTwoElements ( int arr [ ] , int size ) { int i ; System . out . print ( " The ▁ repeating ▁ element ▁ is ▁ " ) ; System . out . print ( " And ▁ the ▁ missing ▁ element ▁ is ▁ " ) ; for ( i = 0 ; i < size ; i ++ ) { if ( arr [ i ] > 0 ) System . out . println ( i + 1 ) ; } }

@@ -1,0 +1,2 @@
+class X { static int countIslands ( int mat [ ] [ ] , int m , int n ) { int count = 0 ; return count ; }
+ }

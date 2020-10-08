@@ -1,0 +1,1 @@
+static void findMaxGuests ( int arrl [ ] , int exit [ ] , int n ) { Arrays . sort ( arrl ) ; Arrays . sort ( exit ) ; int guests_in = 1 , max_guests = 1 , time = arrl [ 0 ] ; int i = 1 , j = 0 ; System . out . println ( " Maximum ▁ Number ▁ of ▁ Guests ▁ = ▁ " + max_guests + " ▁ at ▁ time ▁ " + time ) ; }

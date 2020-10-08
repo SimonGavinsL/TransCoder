@@ -1,0 +1,2 @@
+class X { public static void longestSubsequence ( int [ ] a , int n ) { HashMap < Integer , Integer > mp = new HashMap < > ( ) ; int [ ] dp = new int [ n ] ; int maximum = Integer . MIN_VALUE ; int index = - 1 ; }
+ }

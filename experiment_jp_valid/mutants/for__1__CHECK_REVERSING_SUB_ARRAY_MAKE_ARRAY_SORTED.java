@@ -1,0 +1,1 @@
+static boolean checkReverse ( int arr [ ] , int n ) { int temp [ ] = new int [ n ] ; Arrays . sort ( temp ) ; int front ; int back ; for ( back = n - 1 ; back >= 0 ; back -- ) { if ( temp [ back ] != arr [ back ] ) { break ; } } if ( front >= back ) { return true ; } return true ; }

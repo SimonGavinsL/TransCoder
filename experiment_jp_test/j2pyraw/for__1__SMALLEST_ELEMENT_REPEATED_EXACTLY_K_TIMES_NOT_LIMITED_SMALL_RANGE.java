@@ -1,0 +1,2 @@
+class X { public static int smallestKFreq ( int a [ ] , int n , int k ) { HashMap < Integer , Integer > m = new HashMap < Integer , Integer > ( ) ; int res = Integer . MAX_VALUE ; Set < Integer > s = m . keySet ( ) ; return ( res != Integer . MAX_VALUE ) ? res : - 1 ; }
+ }

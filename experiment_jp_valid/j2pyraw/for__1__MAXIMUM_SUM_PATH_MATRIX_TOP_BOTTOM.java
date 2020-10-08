@@ -1,0 +1,2 @@
+class X { static int maxSum ( int [ ] [ ] mat , int n ) { if ( n == 1 ) return mat [ 0 ] [ 0 ] ; int dp [ ] [ ] = new int [ n ] [ n ] ; int maxSum = Integer . MIN_VALUE , max ; for ( int j = 0 ; j < n ; j ++ ) if ( maxSum < dp [ 0 ] [ j ] ) maxSum = dp [ 0 ] [ j ] ; return maxSum ; }
+ }

@@ -1,0 +1,2 @@
+class X { static double largestSumOfAverages ( int [ ] A , int K ) { int n = A . length ; double [ ] pre_sum = new double [ n + 1 ] ; pre_sum [ 0 ] = 0 ; double [ ] dp = new double [ n ] ; double sum = 0 ; return dp [ 0 ] ; }
+ }

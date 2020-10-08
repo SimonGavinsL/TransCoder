@@ -1,0 +1,2 @@
+class X { static int findPossibleMoves ( int mat [ ] [ ] , int p , int q ) { int X [ ] = { 2 , 1 , - 1 , - 2 , - 2 , - 1 , 1 , 2 } ; int Y [ ] = { 1 , 2 , 2 , 1 , - 1 , - 2 , - 2 , - 1 } ; int count = 0 ; return count ; }
+ }

@@ -1,0 +1,2 @@
+class X { static int countMinReversals ( String expr ) { int len = expr . length ( ) ; if ( len % 2 != 0 ) return - 1 ; Stack < Character > s = new Stack < > ( ) ; int red_len = s . size ( ) ; int n = 0 ; while ( ! s . empty ( ) && s . peek ( ) == ' { ' ) { s . pop ( ) ; n ++ ; } return ( red_len / 2 + n % 2 ) ; } public static void main ( String [ ] args ) { String expr = " } }
+ }

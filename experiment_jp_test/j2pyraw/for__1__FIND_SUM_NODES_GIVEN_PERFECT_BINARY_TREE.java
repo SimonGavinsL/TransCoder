@@ -1,0 +1,2 @@
+class X { static int sumNodes ( int l ) { int leafNodeCount = ( int ) Math . pow ( 2 , l - 1 ) ; Vector < Vector < Integer > > vec = new Vector < Vector < Integer > > ( ) ; for ( int i = l - 2 ; i >= 0 ; i -- ) { int k = 0 ; while ( k < vec . get ( i + 1 ) . size ( ) - 1 ) { vec . get ( i ) . add ( vec . get ( i + 1 ) . get ( k ) + vec . get ( i + 1 ) . get ( k + 1 ) ) ; k += 2 ; } } int sum = 0 ; for ( int i = 0 ; i < l ; i ++ ) { for ( int j = 0 ; j < vec . get ( i ) . size ( ) ; j ++ ) sum += vec . get ( i ) . get ( j ) ; } return sum ; }
+ }

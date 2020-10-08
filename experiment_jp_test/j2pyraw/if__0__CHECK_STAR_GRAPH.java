@@ -1,0 +1,2 @@
+class X { static boolean checkStar ( int mat [ ] [ ] ) { int vertexD1 = 0 , vertexDn_1 = 0 ; if ( size == 2 ) return ( mat [ 0 ] [ 0 ] == 0 && mat [ 0 ] [ 1 ] == 1 && mat [ 1 ] [ 0 ] == 1 && mat [ 1 ] [ 1 ] == 0 ) ; return ( vertexD1 == ( size - 1 ) && vertexDn_1 == 1 ) ; }
+ }

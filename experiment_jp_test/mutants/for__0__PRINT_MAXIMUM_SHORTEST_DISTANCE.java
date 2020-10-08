@@ -1,0 +1,1 @@
+static int find_maximum ( int a [ ] , int n , int k ) { HashMap < Integer , Integer > b = new HashMap < Integer , Integer > ( ) ; int ans = Integer . MAX_VALUE ; for ( int i = 0 ; i < n ; i ++ ) { int x = a [ i ] ; if ( x != k - x && b . containsKey ( k - x ) ) ans = Math . min ( Math . max ( b . get ( x ) , b . get ( k - x ) ) , ans ) ; } return ans ; }

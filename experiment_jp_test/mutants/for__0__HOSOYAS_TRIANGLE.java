@@ -1,0 +1,1 @@
+static void printHosoya ( int n ) { int dp [ ] [ ] = new int [ N ] [ N ] ; dp [ 0 ] [ 0 ] = dp [ 1 ] [ 0 ] = 1 ; dp [ 1 ] [ 1 ] = 1 ; for ( int i = 0 ; i < n ; i ++ ) { for ( int j = 0 ; j <= i ; j ++ ) System . out . print ( dp [ i ] [ j ] + " ▁ " ) ; System . out . println ( " " ) ; } }

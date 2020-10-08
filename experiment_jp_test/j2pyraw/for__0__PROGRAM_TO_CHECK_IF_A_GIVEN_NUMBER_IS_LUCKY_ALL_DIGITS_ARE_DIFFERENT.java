@@ -1,0 +1,2 @@
+class X { static boolean isLucky ( int n ) { boolean arr [ ] = new boolean [ 10 ] ; while ( n > 0 ) { int digit = n % 10 ; if ( arr [ digit ] ) return false ; arr [ digit ] = true ; n = n / 10 ; } return true ; }
+ }

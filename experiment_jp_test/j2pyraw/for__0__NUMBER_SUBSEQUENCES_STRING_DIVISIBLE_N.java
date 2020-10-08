@@ -1,0 +1,2 @@
+class X { static int countDivisibleSubseq ( String str , int n ) { int len = str . length ( ) ; int dp [ ] [ ] = new int [ len ] [ n ] ; dp [ 0 ] [ ( str . charAt ( 0 ) - '0' ) % n ] ++ ; return dp [ len - 1 ] [ 0 ] ; }
+ }

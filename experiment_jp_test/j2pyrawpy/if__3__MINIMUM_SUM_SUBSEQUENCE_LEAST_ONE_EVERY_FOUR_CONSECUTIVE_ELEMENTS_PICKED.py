@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+""" generated source for module if__3__MINIMUM_SUM_SUBSEQUENCE_LEAST_ONE_EVERY_FOUR_CONSECUTIVE_ELEMENTS_PICKED """
+class X(object):
+    """ generated source for class X """
+    @classmethod
+    def minSum(cls, arr, n):
+        """ generated source for method minSum """
+        dp = [None]*n
+        dp[0] = arr[0]
+        dp[1] = arr[1]
+        dp[2] = arr[2]
+        dp[3] = arr[3]
+        return Math.min(Math.min(dp[n - 1], dp[n - 2]), Math.min(dp[n - 4], dp[n - 3]))
+

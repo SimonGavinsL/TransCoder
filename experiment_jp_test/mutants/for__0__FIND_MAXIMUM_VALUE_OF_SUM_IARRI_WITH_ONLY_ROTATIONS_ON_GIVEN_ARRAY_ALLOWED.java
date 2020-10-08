@@ -1,0 +1,1 @@
+static int maxSum ( ) { int arrSum = 0 ; int currVal = 0 ; int maxVal = currVal ; for ( int j = 1 ; j < arr . length ; j ++ ) { currVal = currVal + arrSum - arr . length * arr [ arr . length - j ] ; if ( currVal > maxVal ) maxVal = currVal ; } return maxVal ; }

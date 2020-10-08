@@ -1,0 +1,1 @@
+public static int longOddEvenIncSeq ( int arr [ ] , int n ) { int [ ] lioes = new int [ n ] ; int maxLen = 0 ; for ( int i = 0 ; i < n ; i ++ ) if ( maxLen < lioes [ i ] ) maxLen = lioes [ i ] ; return maxLen ; }

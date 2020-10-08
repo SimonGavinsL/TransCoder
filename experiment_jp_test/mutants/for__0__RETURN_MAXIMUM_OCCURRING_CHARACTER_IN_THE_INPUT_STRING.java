@@ -1,0 +1,1 @@
+static char getMaxOccuringChar ( String str ) { int count [ ] = new int [ ASCII_SIZE ] ; int len = str . length ( ) ; int max = - 1 ; char result = ' ▁ ' ; for ( int i = 0 ; i < len ; i ++ ) { if ( max < count [ str . charAt ( i ) ] ) { max = count [ str . charAt ( i ) ] ; result = str . charAt ( i ) ; } } return result ; }

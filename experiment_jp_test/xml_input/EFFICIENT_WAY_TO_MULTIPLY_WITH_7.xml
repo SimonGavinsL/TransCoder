@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="experiment/original/EFFICIENT_WAY_TO_MULTIPLY_WITH_7.java"><function><type><specifier>static</specifier> <name>int</name></type> <name>multiplyBySeven</name> <parameter_list>( <parameter><decl><type><name>int</name></type> <name>n</name></decl></parameter> )</parameter_list> <block>{<block_content> <return>return <expr><operator>(</operator> <operator>(</operator> <name>n</name> <operator>&lt;&lt;</operator> <literal type="number">3</literal> <operator>)</operator> <operator>-</operator> <name>n</name> <operator>)</operator></expr> ;</return> </block_content>}</block></function>
+</unit>

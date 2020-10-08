@@ -1,0 +1,2 @@
+class X { static int kthNonRepeating ( String str , int k ) { int n = str . length ( ) ; int [ ] count = new int [ MAX_CHAR ] ; int [ ] index = new int [ MAX_CHAR ] ; Arrays . sort ( index ) ; return ( index [ k - 1 ] != n ) ? index [ k - 1 ] : - 1 ; }
+ }

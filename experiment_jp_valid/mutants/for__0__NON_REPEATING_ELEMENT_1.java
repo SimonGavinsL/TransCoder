@@ -1,0 +1,1 @@
+static int firstNonRepeating ( int arr [ ] , int n ) { Map < Integer , Integer > m = new HashMap < > ( ) ; for ( int i = 0 ; i < n ; i ++ ) if ( m . get ( arr [ i ] ) == 1 ) return arr [ i ] ; return - 1 ; }

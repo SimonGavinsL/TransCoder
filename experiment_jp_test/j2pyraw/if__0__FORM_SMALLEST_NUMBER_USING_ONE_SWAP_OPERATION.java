@@ -1,0 +1,2 @@
+class X { public static String smallestNumber ( String str ) { char [ ] num = str . toCharArray ( ) ; int n = str . length ( ) ; int [ ] rightMin = new int [ n ] ; rightMin [ n - 1 ] = - 1 ; int right = n - 1 ; int small = - 1 ; return ( new String ( num ) ) ; }
+ }

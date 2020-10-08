@@ -1,0 +1,2 @@
+class X { static int numberofways ( String A , String B , int N , int M ) { Vector < Integer > [ ] pos = new Vector [ MAX ] ; int [ ] [ ] dpl = new int [ N + 2 ] [ M + 2 ] ; int LCS = dpl [ N ] [ M ] ; int [ ] [ ] dpr = new int [ N + 2 ] [ M + 2 ] ; int ans = 0 ; for ( int i = 0 ; i <= N ; i ++ ) { for ( int j = 0 ; j < MAX ; j ++ ) { for ( int x : pos [ j ] ) { if ( dpl [ i ] [ x - 1 ] + dpr [ i + 1 ] [ x + 1 ] == LCS ) { ans ++ ; break ; } } } } return ans ; }
+ }

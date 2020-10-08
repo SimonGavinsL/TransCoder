@@ -1,0 +1,1 @@
+static int minimumSquare ( int m , int n ) { int vertical_min = Integer . MAX_VALUE ; int horizontal_min = Integer . MAX_VALUE ; dp [ m ] [ n ] = Math . min ( vertical_min , horizontal_min ) ; return dp [ m ] [ n ] ; }

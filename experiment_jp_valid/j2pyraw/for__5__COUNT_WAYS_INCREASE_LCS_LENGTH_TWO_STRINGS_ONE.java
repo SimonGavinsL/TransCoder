@@ -1,0 +1,2 @@
+class X { static int waysToIncreaseLCSBy1 ( String str1 , String str2 ) { int m = str1 . length ( ) , n = str2 . length ( ) ; Vector < Integer > [ ] position = new Vector [ M ] ; int [ ] [ ] lcsl = new int [ m + 2 ] [ n + 2 ] ; int [ ] [ ] lcsr = new int [ m + 2 ] [ n + 2 ] ; int ways = 0 ; return ways ; }
+ }

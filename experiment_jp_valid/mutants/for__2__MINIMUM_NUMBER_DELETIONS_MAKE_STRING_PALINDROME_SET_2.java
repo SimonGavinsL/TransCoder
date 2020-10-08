@@ -1,0 +1,1 @@
+static int getLevenstein ( StringBuilder input ) { StringBuilder revInput = new StringBuilder ( input ) ; revInput = revInput . reverse ( ) ; int n = input . length ( ) ; int [ ] [ ] dp = new int [ n + 1 ] [ n + 1 ] ; int res = Integer . MAX_VALUE ; return res ; }

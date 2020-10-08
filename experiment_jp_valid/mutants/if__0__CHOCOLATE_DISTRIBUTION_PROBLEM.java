@@ -1,0 +1,1 @@
+static int findMinDiff ( int arr [ ] , int n , int m ) { Arrays . sort ( arr ) ; if ( n < m ) return - 1 ; int min_diff = Integer . MAX_VALUE ; int first = 0 , last = 0 ; return ( arr [ last ] - arr [ first ] ) ; }

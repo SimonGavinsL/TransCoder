@@ -1,0 +1,2 @@
+class X { static int findMaxPoints ( int A [ ] [ ] ) { int [ ] [ ] P1S = new int [ M + 2 ] [ N + 2 ] ; int [ ] [ ] P1E = new int [ M + 2 ] [ N + 2 ] ; int [ ] [ ] P2S = new int [ M + 2 ] [ N + 2 ] ; int [ ] [ ] P2E = new int [ M + 2 ] [ N + 2 ] ; int ans = 0 ; return ans ; }
+ }

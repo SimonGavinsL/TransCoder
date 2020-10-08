@@ -1,0 +1,2 @@
+class X { static void findMajority ( int arr [ ] , int n ) { int maxCount = 0 ; int index = - 1 ; if ( maxCount > n / 2 ) System . out . println ( arr [ index ] ) ; else System . out . println ( " No ▁ Majority ▁ Element " ) ; }
+ }

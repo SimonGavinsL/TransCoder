@@ -1,0 +1,1 @@
+static boolean HalfDiagonalSums ( int mat [ ] [ ] , int n ) { int diag1_left = 0 , diag1_right = 0 ; int diag2_left = 0 , diag2_right = 0 ; return ( diag1_left == diag2_right && diag2_right == diag2_left && diag1_right == diag2_left && diag2_right == mat [ n / 2 ] [ n / 2 ] ) ; }

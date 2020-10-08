@@ -1,0 +1,1 @@
+static float correlationCoefficient ( int X [ ] , int Y [ ] , int n ) { int sum_X = 0 , sum_Y = 0 , sum_XY = 0 ; int squareSum_X = 0 , squareSum_Y = 0 ; float corr = ( float ) ( n * sum_XY - sum_X * sum_Y ) / ( float ) ( Math . sqrt ( ( n * squareSum_X - sum_X * sum_X ) * ( n * squareSum_Y - sum_Y * sum_Y ) ) ) ; return corr ; }

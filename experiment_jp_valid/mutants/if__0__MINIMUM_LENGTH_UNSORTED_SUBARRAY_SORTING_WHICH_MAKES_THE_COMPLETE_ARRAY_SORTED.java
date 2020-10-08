@@ -1,0 +1,1 @@
+static void printUnsorted ( int arr [ ] , int n ) { int s = 0 , e = n - 1 , i , max , min ; max = arr [ s ] ; min = arr [ s ] ; System . out . println ( " ▁ The ▁ unsorted ▁ subarray ▁ which " + " ▁ makes ▁ the ▁ given ▁ array ▁ sorted ▁ lies " + " ▁ ▁ between ▁ the ▁ indices ▁ " + s + " ▁ and ▁ " + e ) ; return ; }

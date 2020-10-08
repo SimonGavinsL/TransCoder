@@ -1,0 +1,1 @@
+int getNthUglyNo ( int n ) { int ugly [ ] = new int [ n ] ; int i2 = 0 , i3 = 0 , i5 = 0 ; int next_multiple_of_2 = 2 ; int next_multiple_of_3 = 3 ; int next_multiple_of_5 = 5 ; int next_ugly_no = 1 ; ugly [ 0 ] = 1 ; return next_ugly_no ; }

@@ -1,0 +1,1 @@
+static int countSubstrs ( String str , int i , int j , int n ) { int res = countSubstrs ( str , i + 1 , j , n - 1 ) + countSubstrs ( str , i , j - 1 , n - 1 ) - countSubstrs ( str , i + 1 , j - 1 , n - 2 ) ; return res ; }

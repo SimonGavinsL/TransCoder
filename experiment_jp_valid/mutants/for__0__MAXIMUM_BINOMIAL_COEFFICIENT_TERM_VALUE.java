@@ -1,0 +1,1 @@
+static int maxcoefficientvalue ( int n ) { int [ ] [ ] C = new int [ n + 1 ] [ n + 1 ] ; int maxvalue = 0 ; for ( int i = 0 ; i <= n ; i ++ ) maxvalue = Math . max ( maxvalue , C [ n ] [ i ] ) ; return maxvalue ; }

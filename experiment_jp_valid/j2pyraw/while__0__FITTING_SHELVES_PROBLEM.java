@@ -1,0 +1,2 @@
+class X { static void minSpacePreferLarge ( int wall , int m , int n ) { int num_m = 0 , num_n = 0 , min_empty = wall ; int p = 0 , q = 0 , rem ; System . out . println ( num_m + " ▁ " + num_n + " ▁ " + min_empty ) ; }
+ }

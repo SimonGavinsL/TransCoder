@@ -1,0 +1,1 @@
+static int isPossible ( int n , int index , int modulo , int M , int arr [ ] , int dp [ ] [ ] ) { modulo = ( ( modulo % M ) + M ) % M ; int placeAdd = isPossible ( n , index + 1 , modulo + arr [ index ] , M , arr , dp ) ; int placeMinus = isPossible ( n , index + 1 , modulo - arr [ index ] , M , arr , dp ) ; int res = placeAdd ; dp [ index ] [ modulo ] = res ; return res ; }

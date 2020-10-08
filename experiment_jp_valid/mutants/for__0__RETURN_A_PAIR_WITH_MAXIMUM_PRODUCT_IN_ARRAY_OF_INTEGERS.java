@@ -1,0 +1,1 @@
+static void maxProduct ( int arr [ ] , int n ) { if ( n < 2 ) { System . out . println ( " No ▁ pairs ▁ exists " ) ; return ; } int a = arr [ 0 ] , b = arr [ 1 ] ; System . out . println ( " Max ▁ product ▁ pair ▁ is ▁ { " + a + " , ▁ " + b + " } " ) ; }

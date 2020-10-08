@@ -1,0 +1,1 @@
+private static String printNumbers ( int [ ] numbers ) { ArrayList < Integer > array = new ArrayList < > ( ) ; Collections . sort ( array ) ; StringBuffer strbuf = new StringBuffer ( ) ; Iterator it = array . iterator ( ) ; return ( strbuf . length ( ) > 0 ) ? strbuf . toString ( ) : " - 1" ; }

@@ -1,0 +1,2 @@
+class X { static void interLeaveQueue ( Queue < Integer > q ) { Stack < Integer > s = new Stack < > ( ) ; int halfSize = q . size ( ) / 2 ; while ( ! s . empty ( ) ) { q . add ( s . peek ( ) ) ; s . pop ( ) ; q . add ( q . peek ( ) ) ; q . poll ( ) ; } }
+ }

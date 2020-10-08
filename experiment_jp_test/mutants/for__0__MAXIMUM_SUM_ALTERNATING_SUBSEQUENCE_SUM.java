@@ -1,0 +1,1 @@
+static int maxAlternateSum ( int arr [ ] , int n ) { if ( n == 1 ) return arr [ 0 ] ; int dec [ ] = new int [ n ] ; int inc [ ] = new int [ n ] ; dec [ 0 ] = inc [ 0 ] = arr [ 0 ] ; int flag = 0 ; int result = Integer . MIN_VALUE ; for ( int i = 0 ; i < n ; i ++ ) { if ( result < inc [ i ] ) result = inc [ i ] ; if ( result < dec [ i ] ) result = dec [ i ] ; } return result ; }

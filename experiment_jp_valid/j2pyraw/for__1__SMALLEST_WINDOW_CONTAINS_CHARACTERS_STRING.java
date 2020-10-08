@@ -1,0 +1,2 @@
+class X { static String findSubString ( String str ) { int n = str . length ( ) ; int dist_count = 0 ; boolean [ ] visited = new boolean [ MAX_CHARS ] ; Arrays . fill ( visited , false ) ; int start = 0 , start_index = - 1 ; int min_len = Integer . MAX_VALUE ; int count = 0 ; int [ ] curr_count = new int [ MAX_CHARS ] ; return str . substring ( start_index , start_index + min_len ) ; }
+ }

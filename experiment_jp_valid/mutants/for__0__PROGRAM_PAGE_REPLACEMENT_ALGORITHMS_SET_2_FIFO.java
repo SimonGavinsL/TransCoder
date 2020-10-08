@@ -1,0 +1,1 @@
+static int pageFaults ( int pages [ ] , int n , int capacity ) { HashSet < Integer > s = new HashSet < > ( capacity ) ; Queue < Integer > indexes = new LinkedList < > ( ) ; int page_faults = 0 ; return page_faults ; }

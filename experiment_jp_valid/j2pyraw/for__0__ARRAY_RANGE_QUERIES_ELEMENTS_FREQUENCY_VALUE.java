@@ -1,0 +1,2 @@
+class X { static int solveQuery ( int start , int end , int arr [ ] ) { Map < Integer , Integer > mp = new HashMap < > ( ) ; int count = 0 ; for ( Map . Entry < Integer , Integer > entry : mp . entrySet ( ) ) if ( entry . getKey ( ) == entry . getValue ( ) ) count ++ ; return count ; }
+ }

@@ -1,0 +1,1 @@
+static void findMinAvgSubarray ( int n , int k ) { int res_index = 0 ; int curr_sum = 0 ; int min_sum = curr_sum ; System . out . println ( " Subarray ▁ between ▁ [ " + res_index + " , ▁ " + ( res_index + k - 1 ) + " ] ▁ has ▁ minimum ▁ average " ) ; }

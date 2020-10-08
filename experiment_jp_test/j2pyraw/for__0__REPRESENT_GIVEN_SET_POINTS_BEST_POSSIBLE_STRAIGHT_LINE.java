@@ -1,0 +1,2 @@
+class X { static void bestApproximate ( int x [ ] , int y [ ] ) { int n = x . length ; double m , c , sum_x = 0 , sum_y = 0 , sum_xy = 0 , sum_x2 = 0 ; m = ( n * sum_xy - sum_x * sum_y ) / ( n * sum_x2 - pow ( sum_x , 2 ) ) ; c = ( sum_y - m * sum_x ) / n ; System . out . println ( " m ▁ = ▁ " + m ) ; System . out . println ( " c ▁ = ▁ " + c ) ; }
+ }

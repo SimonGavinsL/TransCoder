@@ -1,0 +1,2 @@
+class X { void productArray ( int arr [ ] , int n ) { if ( n == 1 ) { System . out . print ( 0 ) ; return ; } int left [ ] = new int [ n ] ; int right [ ] = new int [ n ] ; int prod [ ] = new int [ n ] ; int i , j ; left [ 0 ] = 1 ; right [ n - 1 ] = 1 ; return ; }
+ }

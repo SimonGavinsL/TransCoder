@@ -1,0 +1,1 @@
+static void printDistSum ( int arr [ ] , int n ) { int sum = 0 ; boolean [ ] [ ] dp = new boolean [ n + 1 ] [ sum + 1 ] ; for ( int j = 0 ; j <= sum ; j ++ ) if ( dp [ n ] [ j ] == true ) System . out . print ( j + " ▁ " ) ; }

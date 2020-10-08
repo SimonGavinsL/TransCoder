@@ -1,0 +1,2 @@
+class X { static int minSum ( int ar [ ] , int n ) { int [ ] sum = new int [ n ] ; sum [ 0 ] = ar [ 0 ] ; sum [ 1 ] = ar [ 1 ] ; sum [ 2 ] = ar [ 2 ] ; sum [ 3 ] = ar [ 3 ] ; return Arrays . stream ( Arrays . copyOfRange ( sum , n - 4 , n ) ) . min ( ) . getAsInt ( ) ; }
+ }

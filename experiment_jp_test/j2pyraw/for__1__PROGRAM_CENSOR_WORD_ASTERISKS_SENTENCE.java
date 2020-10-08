@@ -1,0 +1,2 @@
+class X { static String censor ( String text , String word ) { String [ ] word_list = text . split ( " \\s + " ) ; String result = " " ; String stars = " " ; int index = 0 ; for ( String i : word_list ) result += i + ' ▁ ' ; return result ; }
+ }

@@ -1,0 +1,2 @@
+class X { static void printSumTricky ( int mat [ ] [ ] , int k ) { if ( k > n ) return ; int stripSum [ ] [ ] = new int [ n ] [ n ] ; for ( int i = 0 ; i < n - k + 1 ; i ++ ) { int sum = 0 ; for ( int j = 0 ; j < k ; j ++ ) sum += stripSum [ i ] [ j ] ; System . out . print ( sum + " ▁ " ) ; for ( int j = 1 ; j < n - k + 1 ; j ++ ) { sum += ( stripSum [ i ] [ j + k - 1 ] - stripSum [ i ] [ j - 1 ] ) ; System . out . print ( sum + " ▁ " ) ; } System . out . println ( ) ; } }
+ }

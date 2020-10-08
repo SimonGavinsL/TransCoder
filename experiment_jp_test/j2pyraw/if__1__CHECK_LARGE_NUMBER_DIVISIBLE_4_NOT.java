@@ -1,0 +1,2 @@
+class X { static boolean check ( String str ) { int n = str . length ( ) ; int last = str . charAt ( n - 1 ) - '0' ; int second_last = str . charAt ( n - 2 ) - '0' ; return ( ( second_last * 10 + last ) % 4 == 0 ) ; }
+ }

@@ -1,0 +1,1 @@
+static int policeThief ( char arr [ ] , int n , int k ) { int res = 0 ; ArrayList < Integer > thi = new ArrayList < Integer > ( ) ; ArrayList < Integer > pol = new ArrayList < Integer > ( ) ; int l = 0 , r = 0 ; return res ; }

@@ -1,0 +1,2 @@
+class X { static int longestSubseqWithDiffOne ( int arr [ ] , int n ) { int dp [ ] = new int [ n ] ; int result = 1 ; for ( int i = 0 ; i < n ; i ++ ) if ( result < dp [ i ] ) result = dp [ i ] ; return result ; }
+ }

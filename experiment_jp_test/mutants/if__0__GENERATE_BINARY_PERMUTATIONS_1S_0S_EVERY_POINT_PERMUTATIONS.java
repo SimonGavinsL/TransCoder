@@ -1,0 +1,1 @@
+static void generate ( int ones , int zeroes , String str , int len ) { generate ( ones + 1 , zeroes , str + "1" , len ) ; if ( ones > zeroes ) { generate ( ones , zeroes + 1 , str + "0" , len ) ; } }

@@ -1,0 +1,2 @@
+class X { static int kthLargestSum ( int arr [ ] , int n , int k ) { int sum [ ] = new int [ n + 1 ] ; sum [ 0 ] = 0 ; sum [ 1 ] = arr [ 0 ] ; PriorityQueue < Integer > Q = new PriorityQueue < Integer > ( ) ; return Q . poll ( ) ; }
+ }

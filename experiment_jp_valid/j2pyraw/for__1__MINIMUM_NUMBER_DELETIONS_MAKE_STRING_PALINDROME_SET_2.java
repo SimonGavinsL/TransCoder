@@ -1,0 +1,2 @@
+class X { static int getLevenstein ( StringBuilder input ) { StringBuilder revInput = new StringBuilder ( input ) ; revInput = revInput . reverse ( ) ; int n = input . length ( ) ; int [ ] [ ] dp = new int [ n + 1 ] [ n + 1 ] ; int res = Integer . MAX_VALUE ; for ( int i = n , j = 0 ; i >= 0 ; i -- , j ++ ) { res = Math . min ( res , dp [ i ] [ j ] ) ; if ( i < n ) res = Math . min ( res , dp [ i + 1 ] [ j ] ) ; if ( i > 0 ) res = Math . min ( res , dp [ i - 1 ] [ j ] ) ; } return res ; }
+ }

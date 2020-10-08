@@ -1,0 +1,1 @@
+static int search ( int arr [ ] , int l , int h , int key ) { int mid = ( l + h ) / 2 ; if ( key >= arr [ mid ] && key <= arr [ h ] ) return search ( arr , mid + 1 , h , key ) ; return search ( arr , l , mid - 1 , key ) ; }

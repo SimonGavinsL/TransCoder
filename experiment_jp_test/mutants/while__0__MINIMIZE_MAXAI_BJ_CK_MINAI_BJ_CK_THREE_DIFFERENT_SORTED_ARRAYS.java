@@ -1,0 +1,1 @@
+static int solve ( int [ ] A , int [ ] B , int [ ] C ) { int i , j , k ; i = A . length - 1 ; j = B . length - 1 ; k = C . length - 1 ; int min_diff , current_diff , max_term ; min_diff = Math . abs ( Math . max ( A [ i ] , Math . max ( B [ j ] , C [ k ] ) ) - Math . min ( A [ i ] , Math . min ( B [ j ] , C [ k ] ) ) ) ; return min_diff ; }

@@ -1,0 +1,2 @@
+class X { static int subset ( int arr [ ] , int n ) { HashMap < Integer , Integer > mp = new HashMap < > ( ) ; int res = 0 ; for ( Map . Entry < Integer , Integer > entry : mp . entrySet ( ) ) res = Math . max ( res , entry . getValue ( ) ) ; return res ; }
+ }

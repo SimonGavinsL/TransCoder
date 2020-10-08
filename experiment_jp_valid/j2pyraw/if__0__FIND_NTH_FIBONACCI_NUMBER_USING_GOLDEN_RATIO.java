@@ -1,0 +1,2 @@
+class X { static int fib ( int n ) { int t = 5 ; int fn = 5 ; while ( t < n ) { fn = ( int ) Math . round ( fn * PHI ) ; t ++ ; } return fn ; }
+ }

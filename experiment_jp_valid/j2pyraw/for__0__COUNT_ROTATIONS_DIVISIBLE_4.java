@@ -1,0 +1,2 @@
+class X { static int countRotations ( String n ) { int len = n . length ( ) ; if ( len == 1 ) { int oneDigit = n . charAt ( 0 ) - '0' ; if ( oneDigit % 4 == 0 ) return 1 ; return 0 ; } int twoDigit , count = 0 ; twoDigit = ( n . charAt ( len - 1 ) - '0' ) * 10 + ( n . charAt ( 0 ) - '0' ) ; if ( twoDigit % 4 == 0 ) count ++ ; return count ; }
+ }

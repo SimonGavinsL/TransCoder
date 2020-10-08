@@ -1,0 +1,1 @@
+static int numoffbt ( int arr [ ] , int n ) { int maxvalue = - 2147483647 ; int minvalue = 2147483647 ; int mark [ ] = new int [ maxvalue + 2 ] ; int value [ ] = new int [ maxvalue + 2 ] ; Arrays . fill ( mark , 0 ) ; Arrays . fill ( value , 0 ) ; int ans = 0 ; return ans ; }

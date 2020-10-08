@@ -1,0 +1,2 @@
+class X { static int countDistictSubarray ( int arr [ ] , int n ) { HashMap < Integer , Integer > vis = new HashMap < Integer , Integer > ( ) { @ Override public Integer get ( Object key ) { return super . get ( key ) ; } } ; int k = vis . size ( ) ; vis . clear ( ) ; int ans = 0 , right = 0 , window = 0 ; return ans ; }
+ }

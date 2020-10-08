@@ -1,0 +1,1 @@
+public static int MinimumCost ( int cost [ ] , int n , int W ) { Vector < Integer > val = new Vector < Integer > ( ) ; Vector < Integer > wt = new Vector < Integer > ( ) ; int size = 0 ; n = size ; int min_cost [ ] [ ] = new int [ n + 1 ] [ W + 1 ] ; return ( min_cost [ n ] [ W ] == Integer . MAX_VALUE ) ? - 1 : min_cost [ n ] [ W ] ; }

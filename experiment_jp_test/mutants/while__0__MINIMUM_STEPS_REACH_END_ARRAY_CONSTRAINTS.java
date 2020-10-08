@@ -1,0 +1,1 @@
+static int getMinStepToReachEnd ( int arr [ ] , int N ) { boolean [ ] visit = new boolean [ N ] ; int [ ] distance = new int [ N ] ; Vector < Integer > [ ] digit = new Vector [ 10 ] ; distance [ 0 ] = 0 ; visit [ 0 ] = true ; Queue < Integer > q = new LinkedList < > ( ) ; q . add ( 0 ) ; return distance [ N - 1 ] ; }

@@ -1,0 +1,2 @@
+class X { static int [ ] Restore_Tree ( int [ ] S , int [ ] End ) { int [ ] Identity = new int [ N ] ; int [ ] parent = new int [ N ] ; Arrays . fill ( parent , - 1 ) ; int curr_parent = Identity [ 0 ] ; return parent ; }
+ }

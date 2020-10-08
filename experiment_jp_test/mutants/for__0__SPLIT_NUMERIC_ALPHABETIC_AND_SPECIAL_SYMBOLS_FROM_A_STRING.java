@@ -1,0 +1,1 @@
+static void splitString ( String str ) { StringBuffer alpha = new StringBuffer ( ) , num = new StringBuffer ( ) , special = new StringBuffer ( ) ; System . out . println ( alpha ) ; System . out . println ( num ) ; System . out . println ( special ) ; }

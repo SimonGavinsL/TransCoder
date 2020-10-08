@@ -1,0 +1,2 @@
+class X { static void printFirstNegativeInteger ( int arr [ ] , int n , int k ) { LinkedList < Integer > Di = new LinkedList < > ( ) ; int i ; if ( ! Di . isEmpty ( ) ) System . out . print ( arr [ Di . peek ( ) ] + " ▁ " ) ; else System . out . print ( "0" + " ▁ " ) ; }
+ }

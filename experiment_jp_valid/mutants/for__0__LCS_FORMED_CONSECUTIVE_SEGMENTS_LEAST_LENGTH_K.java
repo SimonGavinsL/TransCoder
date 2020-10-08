@@ -1,0 +1,1 @@
+static int longestSubsequenceCommonSegment ( int k , String s1 , String s2 ) { int n = s1 . length ( ) ; int m = s2 . length ( ) ; int lcs [ ] [ ] = new int [ n + 1 ] [ m + 1 ] ; int cnt [ ] [ ] = new int [ n + 1 ] [ m + 1 ] ; return lcs [ n ] [ m ] ; }

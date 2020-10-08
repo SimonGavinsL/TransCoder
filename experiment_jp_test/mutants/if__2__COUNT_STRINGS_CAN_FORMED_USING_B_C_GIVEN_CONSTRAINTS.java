@@ -1,0 +1,1 @@
+static int countStr ( int n , int bCount , int cCount ) { int res = countStr ( n - 1 , bCount , cCount ) ; res += countStr ( n - 1 , bCount - 1 , cCount ) ; res += countStr ( n - 1 , bCount , cCount - 1 ) ; return res ; }

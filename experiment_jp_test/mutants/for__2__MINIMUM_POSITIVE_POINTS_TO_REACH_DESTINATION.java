@@ -1,0 +1,1 @@
+static int minInitialPoints ( int points [ ] [ ] , int R , int C ) { int dp [ ] [ ] = new int [ R ] [ C ] ; int m = R , n = C ; dp [ m - 1 ] [ n - 1 ] = points [ m - 1 ] [ n - 1 ] > 0 ? 1 : Math . abs ( points [ m - 1 ] [ n - 1 ] ) + 1 ; return dp [ 0 ] [ 0 ] ; }

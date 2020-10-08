@@ -1,0 +1,2 @@
+class X { public static int minSwaps ( int [ ] arr ) { int n = arr . length ; ArrayList < Pair < Integer , Integer > > arrpos = new ArrayList < Pair < Integer , Integer > > ( ) ; arrpos . sort ( new Comparator < Pair < Integer , Integer > > ( ) { @ Override public int compare ( Pair < Integer , Integer > o1 , Pair < Integer , Integer > o2 ) { } } ) ; Boolean [ ] vis = new Boolean [ n ] ; Arrays . fill ( vis , false ) ; int ans = 0 ; return ans ; }
+ }

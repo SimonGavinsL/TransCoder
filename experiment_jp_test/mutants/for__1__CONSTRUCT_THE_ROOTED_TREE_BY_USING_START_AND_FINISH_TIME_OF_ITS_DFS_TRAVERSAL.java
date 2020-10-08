@@ -1,0 +1,1 @@
+static int [ ] Restore_Tree ( int [ ] S , int [ ] End ) { int [ ] Identity = new int [ N ] ; int [ ] parent = new int [ N ] ; Arrays . fill ( parent , - 1 ) ; int curr_parent = Identity [ 0 ] ; for ( int i = 0 ; i < N ; i ++ ) parent [ i ] += 1 ; return parent ; }

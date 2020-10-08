@@ -1,0 +1,1 @@
+static int count ( int n ) { int po = 1 ; while ( n / po > 9 ) po = po * 10 ; int msd = n / po ; if ( msd != 3 ) return count ( msd ) * count ( po - 1 ) + count ( msd ) + count ( n % po ) ; else return count ( msd * po - 1 ) ; }

@@ -1,0 +1,1 @@
+public static int minOperation ( int arr [ ] , int n ) { HashMap < Integer , Integer > hash = new HashMap < Integer , Integer > ( ) ; int max_count = 0 ; Set < Integer > s = hash . keySet ( ) ; return ( n - max_count ) ; }

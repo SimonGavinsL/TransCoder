@@ -1,0 +1,2 @@
+class X { static void thirdLargest ( int arr [ ] , int arr_size ) { int first = arr [ 0 ] ; int second = Integer . MIN_VALUE ; int third = Integer . MIN_VALUE ; System . out . printf ( " The ▁ third ▁ Largest ▁ " + " element ▁ is ▁ % d \n " , third ) ; }
+ }

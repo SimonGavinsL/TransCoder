@@ -1,0 +1,1 @@
+static int countGroups ( int position , int previous_sum , int length , char [ ] num ) { dp [ position ] [ previous_sum ] = 0 ; int res = 0 ; int sum = 0 ; dp [ position ] [ previous_sum ] = res ; return res ; }

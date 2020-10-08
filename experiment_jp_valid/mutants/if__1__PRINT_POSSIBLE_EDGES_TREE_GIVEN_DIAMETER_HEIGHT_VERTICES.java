@@ -1,0 +1,1 @@
+static void constructTree ( int n , int d , int h ) { if ( d > h ) { System . out . println ( "1" + " ▁ " + ( h + 2 ) ) ; for ( int i = h + 2 ; i <= d ; i ++ ) { System . out . println ( i + " ▁ " + ( i + 1 ) ) ; } } }

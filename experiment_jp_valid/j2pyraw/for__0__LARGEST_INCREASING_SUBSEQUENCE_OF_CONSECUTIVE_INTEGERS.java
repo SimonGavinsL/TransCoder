@@ -1,0 +1,2 @@
+class X { static void findLIS ( int A [ ] , int n ) { Map < Integer , Integer > hash = new HashMap < Integer , Integer > ( ) ; int LIS_size = 1 ; int LIS_index = 0 ; hash . put ( A [ 0 ] , 1 ) ; System . out . println ( " LIS _ size ▁ = ▁ " + LIS_size ) ; System . out . print ( " LIS ▁ : ▁ " ) ; int start = LIS_index - LIS_size + 1 ; while ( start <= LIS_index ) { System . out . print ( start + " ▁ " ) ; start ++ ; } }
+ }

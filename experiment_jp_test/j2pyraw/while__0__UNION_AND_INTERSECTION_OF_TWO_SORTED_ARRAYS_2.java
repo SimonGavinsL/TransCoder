@@ -1,0 +1,2 @@
+class X { static int printUnion ( int arr1 [ ] , int arr2 [ ] , int m , int n ) { int i = 0 , j = 0 ; while ( i < m ) System . out . print ( arr1 [ i ++ ] + " ▁ " ) ; while ( j < n ) System . out . print ( arr2 [ j ++ ] + " ▁ " ) ; return 0 ; }
+ }

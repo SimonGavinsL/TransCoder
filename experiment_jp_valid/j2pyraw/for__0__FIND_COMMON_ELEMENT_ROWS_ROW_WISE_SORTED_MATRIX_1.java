@@ -1,0 +1,2 @@
+class X { static int findCommon ( int mat [ ] [ ] ) { HashMap < Integer , Integer > cnt = new HashMap < Integer , Integer > ( ) ; int i , j ; for ( Map . Entry < Integer , Integer > ele : cnt . entrySet ( ) ) { if ( ele . getValue ( ) == M ) return ele . getKey ( ) ; } return - 1 ; }
+ }

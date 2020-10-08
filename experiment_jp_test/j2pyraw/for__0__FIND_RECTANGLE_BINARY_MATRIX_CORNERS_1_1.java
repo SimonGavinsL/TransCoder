@@ -1,0 +1,2 @@
+class X { static boolean isRectangle ( int matrix [ ] [ ] ) { int rows = matrix . length ; if ( rows == 0 ) return false ; int columns = matrix [ 0 ] . length ; HashMap < Integer , HashSet < Integer > > table = new HashMap < > ( ) ; return false ; }
+ }

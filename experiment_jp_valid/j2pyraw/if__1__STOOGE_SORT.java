@@ -1,0 +1,2 @@
+class X { static void stoogesort ( int arr [ ] , int l , int h ) { if ( h - l + 1 > 2 ) { int t = ( h - l + 1 ) / 3 ; stoogesort ( arr , l , h - t ) ; stoogesort ( arr , l + t , h ) ; stoogesort ( arr , l , h - t ) ; } }
+ }

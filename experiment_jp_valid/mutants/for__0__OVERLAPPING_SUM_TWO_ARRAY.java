@@ -1,0 +1,1 @@
+static int findSum ( int [ ] A , int [ ] B , int n ) { HashMap < Integer , Integer > hash = new HashMap < > ( ) ; int sum = 0 ; for ( Map . Entry entry : hash . entrySet ( ) ) { if ( Integer . parseInt ( ( entry . getValue ( ) ) . toString ( ) ) == 1 ) sum += Integer . parseInt ( ( entry . getKey ( ) ) . toString ( ) ) ; } return sum ; }

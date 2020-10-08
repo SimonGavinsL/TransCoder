@@ -1,0 +1,2 @@
+class X { static int stringReduction ( String str ) { int n = str . length ( ) ; int count [ ] = new int [ 3 ] ; if ( ( count [ 0 ] % 2 ) == ( count [ 1 ] % 2 ) && ( count [ 1 ] % 2 ) == ( count [ 2 ] % 2 ) ) { return 2 ; } return 1 ; }
+ }

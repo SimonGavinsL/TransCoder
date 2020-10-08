@@ -1,0 +1,2 @@
+class X { static char findExtraCharcter ( String strA , String strB ) { int res = 0 , i ; for ( i = 0 ; i < strB . length ( ) ; i ++ ) { res ^= strB . charAt ( i ) ; } return ( ( char ) ( res ) ) ; }
+ }

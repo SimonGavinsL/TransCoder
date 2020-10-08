@@ -1,0 +1,2 @@
+class X { static void firstFit ( int blockSize [ ] , int m , int processSize [ ] , int n ) { int allocation [ ] = new int [ n ] ; System . out . println ( " \n Process ▁ No . \tProcess ▁ Size\tBlock ▁ no . " ) ; }
+ }

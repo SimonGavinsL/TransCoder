@@ -1,0 +1,1 @@
+static int countMinReversals ( String expr ) { int len = expr . length ( ) ; Stack < Character > s = new Stack < > ( ) ; int red_len = s . size ( ) ; int n = 0 ; return ( red_len / 2 + n % 2 ) ; } public static void main ( String [ ] args ) { String expr = " } }

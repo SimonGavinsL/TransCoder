@@ -1,0 +1,1 @@
+static void minMaxValues ( int [ ] arr , int n , int m ) { int sum = 0 ; boolean dp [ ] [ ] = new boolean [ MAX + 1 ] [ MAX * MAX + 1 ] ; dp [ 0 ] [ 0 ] = true ; double max_value = - 1 * INF , min_value = INF ; System . out . print ( " Maximum ▁ Value : ▁ " + ( int ) max_value + " \n " + " Minimum ▁ Value : ▁ " + ( int ) min_value + " \n " ) ; }

@@ -1,0 +1,1 @@
+static int findMaxValue ( int N , int mat [ ] [ ] ) { int maxValue = Integer . MIN_VALUE ; int maxArr [ ] [ ] = new int [ N ] [ N ] ; maxArr [ N - 1 ] [ N - 1 ] = mat [ N - 1 ] [ N - 1 ] ; int maxv = mat [ N - 1 ] [ N - 1 ] ; maxv = mat [ N - 1 ] [ N - 1 ] ; return maxValue ; }

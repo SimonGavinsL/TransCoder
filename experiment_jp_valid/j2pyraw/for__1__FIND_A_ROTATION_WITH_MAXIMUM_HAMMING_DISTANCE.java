@@ -1,0 +1,2 @@
+class X { static int maxHamming ( int arr [ ] , int n ) { int brr [ ] = new int [ 2 * n + 1 ] ; int maxHam = 0 ; for ( int i = 1 ; i < n ; i ++ ) { int currHam = 0 ; for ( int j = i , k = 0 ; j < ( i + n ) ; j ++ , k ++ ) if ( brr [ j ] != arr [ k ] ) currHam ++ ; if ( currHam == n ) return n ; maxHam = Math . max ( maxHam , currHam ) ; } return maxHam ; }
+ }

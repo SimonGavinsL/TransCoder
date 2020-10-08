@@ -1,0 +1,1 @@
+static int findLongestRepeatingSubSeq ( char X [ ] , int m , int n ) { if ( X [ m - 1 ] == X [ n - 1 ] && m != n ) { return dp [ m ] [ n ] = findLongestRepeatingSubSeq ( X , m - 1 , n - 1 ) + 1 ; } return dp [ m ] [ n ] = Math . max ( findLongestRepeatingSubSeq ( X , m , n - 1 ) , findLongestRepeatingSubSeq ( X , m - 1 , n ) ) ; }

@@ -1,0 +1,2 @@
+class X { static int numofArray ( int n , int m ) { int [ ] [ ] dp = new int [ MAX ] [ MAX ] ; Vector < Integer > [ ] di = new Vector [ MAX ] ; Vector < Integer > [ ] mu = new Vector [ MAX ] ; int ans = 0 ; for ( int i = 1 ; i <= m ; i ++ ) { ans += dp [ n ] [ i ] ; di [ i ] . clear ( ) ; mu [ i ] . clear ( ) ; } return ans ; }
+ }

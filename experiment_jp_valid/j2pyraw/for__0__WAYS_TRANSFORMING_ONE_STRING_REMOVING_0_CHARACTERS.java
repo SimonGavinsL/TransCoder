@@ -1,0 +1,2 @@
+class X { static int countTransformation ( String a , String b ) { int n = a . length ( ) , m = b . length ( ) ; if ( m == 0 ) { return 1 ; } int dp [ ] [ ] = new int [ m + 1 ] [ n + 1 ] ; return dp [ m - 1 ] [ n - 1 ] ; }
+ }

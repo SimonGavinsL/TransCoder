@@ -1,0 +1,2 @@
+class X { static int findRepeatingNumber ( int [ ] arr , int n ) { int sq = ( int ) Math . sqrt ( n ) ; int range = ( n / sq ) + 1 ; int [ ] count = new int [ range ] ; int selected_block = range - 1 ; HashMap < Integer , Integer > m = new HashMap < > ( ) ; return - 1 ; }
+ }

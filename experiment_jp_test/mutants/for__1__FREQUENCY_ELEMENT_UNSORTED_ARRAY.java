@@ -1,0 +1,1 @@
+static void countFreq ( int [ ] a , int n ) { HashMap < Integer , Integer > hm = new HashMap < > ( ) ; SortedMap < Integer , Integer > st = new TreeMap < > ( ) ; int cumul = 0 ; for ( SortedMap . Entry < Integer , Integer > x : st . entrySet ( ) ) { cumul += x . getValue ( ) ; System . out . println ( x . getKey ( ) + " ▁ " + cumul ) ; } }

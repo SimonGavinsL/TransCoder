@@ -1,0 +1,2 @@
+class X { static int countPair ( int a , int b ) { String s = String . valueOf ( b ) ; int i ; int result ; if ( i == s . length ( ) ) result = a * s . length ( ) ; else result = a * ( s . length ( ) - 1 ) ; return result ; }
+ }

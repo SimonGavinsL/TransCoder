@@ -1,0 +1,1 @@
+static int findMaximum ( int arr [ ] , int low , int high ) { int mid = ( low + high ) / 2 ; if ( arr [ mid ] > arr [ mid + 1 ] && arr [ mid ] < arr [ mid - 1 ] ) return findMaximum ( arr , low , mid - 1 ) ; else return findMaximum ( arr , mid + 1 , high ) ; }

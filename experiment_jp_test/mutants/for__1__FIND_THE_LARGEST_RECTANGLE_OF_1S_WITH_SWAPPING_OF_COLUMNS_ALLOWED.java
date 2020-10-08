@@ -1,0 +1,1 @@
+static int maxArea ( int mat [ ] [ ] ) { int hist [ ] [ ] = new int [ R + 1 ] [ C + 1 ] ; int curr_area , max_area = 0 ; for ( int i = 0 ; i < R ; i ++ ) { for ( int j = 0 ; j < C ; j ++ ) { curr_area = ( j + 1 ) * hist [ i ] [ j ] ; if ( curr_area > max_area ) { max_area = curr_area ; } } } return max_area ; }

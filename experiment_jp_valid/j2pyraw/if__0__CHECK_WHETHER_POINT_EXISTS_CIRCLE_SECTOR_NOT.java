@@ -1,0 +1,2 @@
+class X { static void checkPoint ( int radius , int x , int y , float percent , float startAngle ) { float endAngle = 360 / percent + startAngle ; double polarradius = Math . sqrt ( x * x + y * y ) ; double Angle = Math . atan ( y / x ) ; }
+ }

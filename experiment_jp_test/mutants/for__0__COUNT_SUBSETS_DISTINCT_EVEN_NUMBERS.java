@@ -1,0 +1,1 @@
+static int countSubsets ( int arr [ ] , int n ) { HashSet < Integer > us = new HashSet < > ( ) ; int even_count = 0 ; even_count = us . size ( ) ; return ( int ) ( Math . pow ( 2 , even_count ) - 1 ) ; }

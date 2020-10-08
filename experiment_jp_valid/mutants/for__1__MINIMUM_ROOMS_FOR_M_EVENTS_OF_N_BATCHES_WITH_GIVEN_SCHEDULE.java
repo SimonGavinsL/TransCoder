@@ -1,0 +1,1 @@
+static int findMinRooms ( String slots [ ] , int n , int m ) { int counts [ ] = new int [ m ] ; int max = - 1 ; for ( int i = 0 ; i < m ; i ++ ) if ( max < counts [ i ] ) max = counts [ i ] ; return max ; }

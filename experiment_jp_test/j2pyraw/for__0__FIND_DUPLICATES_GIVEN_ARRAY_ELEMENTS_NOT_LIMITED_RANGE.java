@@ -1,0 +1,2 @@
+class X { private static void printDuplicates ( int [ ] arr , int n ) { Map < Integer , Integer > map = new HashMap < > ( ) ; int count = 0 ; boolean dup = false ; for ( Entry < Integer , Integer > entry : map . entrySet ( ) ) { if ( entry . getValue ( ) > 1 ) { System . out . print ( entry . getKey ( ) + " ▁ " ) ; dup = true ; } } if ( ! dup ) { System . out . println ( " - 1" ) ; } }
+ }

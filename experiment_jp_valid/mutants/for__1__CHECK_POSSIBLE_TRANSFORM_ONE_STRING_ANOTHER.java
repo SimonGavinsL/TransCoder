@@ -1,0 +1,1 @@
+static boolean check ( String s1 , String s2 ) { int n = s1 . length ( ) ; int m = s2 . length ( ) ; boolean dp [ ] [ ] = new boolean [ n + 1 ] [ m + 1 ] ; dp [ 0 ] [ 0 ] = true ; return ( dp [ n ] [ m ] ) ; }

@@ -1,0 +1,2 @@
+class X { static int maxSubsequenceSubstring ( char x [ ] , char y [ ] , int n , int m ) { int dp [ ] [ ] = new int [ MAX ] [ MAX ] ; int ans = 0 ; for ( int i = 1 ; i <= m ; i ++ ) ans = Math . max ( ans , dp [ i ] [ n ] ) ; return ans ; }
+ }

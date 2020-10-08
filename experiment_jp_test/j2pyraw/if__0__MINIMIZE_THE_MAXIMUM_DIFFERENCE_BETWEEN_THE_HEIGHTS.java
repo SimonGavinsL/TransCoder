@@ -1,0 +1,2 @@
+class X { static int getMinDiff ( int arr [ ] , int n , int k ) { Arrays . sort ( arr ) ; int ans = arr [ n - 1 ] - arr [ 0 ] ; int small = arr [ 0 ] + k ; int big = arr [ n - 1 ] - k ; int temp = 0 ; if ( small > big ) { temp = small ; small = big ; big = temp ; } return Math . min ( ans , big - small ) ; }
+ }

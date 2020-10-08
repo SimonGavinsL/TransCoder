@@ -1,0 +1,2 @@
+class X { static int minimumCostOfBreaking ( Integer X [ ] , Integer Y [ ] , int m , int n ) { int res = 0 ; Arrays . sort ( X , Collections . reverseOrder ( ) ) ; Arrays . sort ( Y , Collections . reverseOrder ( ) ) ; int hzntl = 1 , vert = 1 ; int i = 0 , j = 0 ; int total = 0 ; res += total * vert ; total = 0 ; res += total * hzntl ; return res ; }
+ }

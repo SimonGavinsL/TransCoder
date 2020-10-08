@@ -1,0 +1,2 @@
+class X { static boolean match ( String first , String second ) { if ( first . length ( ) > 0 && first . charAt ( 0 ) == ' * ' ) return match ( first . substring ( 1 ) , second ) || match ( first , second . substring ( 1 ) ) ; return false ; }
+ }

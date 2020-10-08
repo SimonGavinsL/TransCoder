@@ -1,0 +1,1 @@
+public static int countPairs ( int arr [ ] , int n ) { HashMap < Integer , Integer > hm = new HashMap < > ( ) ; int ans = 0 ; for ( Map . Entry < Integer , Integer > it : hm . entrySet ( ) ) { int count = it . getValue ( ) ; ans += ( count * ( count - 1 ) ) / 2 ; } return ans ; }

@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+""" generated source for module if__1__SUM_TWO_LARGE_NUMBERS """
+class X(object):
+    """ generated source for class X """
+    @classmethod
+    def findSum(cls, str1, str2):
+        """ generated source for method findSum """
+        str_ = " "
+        n1 = len(str1)
+        n2 = len(str2)
+        str1 = StringBuilder(str1).reverse().__str__()
+        str2 = StringBuilder(str2).reverse().__str__()
+        carry = 0
+        str_ = StringBuilder(str_).reverse().__str__()
+        return str_
+

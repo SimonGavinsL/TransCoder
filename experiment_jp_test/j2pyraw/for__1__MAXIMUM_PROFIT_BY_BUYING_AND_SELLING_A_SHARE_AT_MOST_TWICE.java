@@ -1,0 +1,2 @@
+class X { static int maxProfit ( int price [ ] , int n ) { int profit [ ] = new int [ n ] ; int max_price = price [ n - 1 ] ; int min_price = price [ 0 ] ; for ( int i = 1 ; i < n ; i ++ ) { if ( price [ i ] < min_price ) min_price = price [ i ] ; profit [ i ] = Math . max ( profit [ i - 1 ] , profit [ i ] + ( price [ i ] - min_price ) ) ; } int result = profit [ n - 1 ] ; return result ; }
+ }

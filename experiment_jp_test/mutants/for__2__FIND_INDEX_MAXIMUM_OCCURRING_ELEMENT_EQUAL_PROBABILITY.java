@@ -1,0 +1,1 @@
+static void findRandomIndexOfMax ( int arr [ ] , int n ) { HashMap < Integer , Integer > mp = new HashMap < Integer , Integer > ( ) ; int max_element = Integer . MIN_VALUE ; int max_so_far = Integer . MIN_VALUE ; int r = ( int ) ( ( new Random ( ) . nextInt ( max_so_far ) % max_so_far ) + 1 ) ; }

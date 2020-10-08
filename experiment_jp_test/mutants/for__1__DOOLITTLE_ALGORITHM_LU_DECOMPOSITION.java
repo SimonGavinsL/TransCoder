@@ -1,0 +1,1 @@
+static void luDecomposition ( int [ ] [ ] mat , int n ) { int [ ] [ ] lower = new int [ n ] [ n ] ; int [ ] [ ] upper = new int [ n ] [ n ] ; System . out . println ( setw ( 2 ) + " ▁ ▁ ▁ ▁ ▁ Lower ▁ Triangular " + setw ( 10 ) + " Upper ▁ Triangular " ) ; }

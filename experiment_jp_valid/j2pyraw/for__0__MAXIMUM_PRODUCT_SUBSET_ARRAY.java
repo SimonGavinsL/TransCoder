@@ -1,0 +1,2 @@
+class X { static int maxProductSubset ( int a [ ] , int n ) { if ( n == 1 ) { return a [ 0 ] ; } int max_neg = Integer . MIN_VALUE ; int count_neg = 0 , count_zero = 0 ; int prod = 1 ; if ( count_zero == n ) { return 0 ; } if ( count_neg % 2 == 1 ) { if ( count_neg == 1 && count_zero > 0 && count_zero + count_neg == n ) { return 0 ; } prod = prod / max_neg ; } return prod ; }
+ }

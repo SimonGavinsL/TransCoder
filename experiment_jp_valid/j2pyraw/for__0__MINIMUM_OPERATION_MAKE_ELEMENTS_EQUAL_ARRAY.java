@@ -1,0 +1,2 @@
+class X { public static int minOperation ( int arr [ ] , int n ) { HashMap < Integer , Integer > hash = new HashMap < Integer , Integer > ( ) ; int max_count = 0 ; Set < Integer > s = hash . keySet ( ) ; for ( int i : s ) if ( max_count < hash . get ( i ) ) max_count = hash . get ( i ) ; return ( n - max_count ) ; }
+ }

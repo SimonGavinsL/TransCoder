@@ -1,0 +1,2 @@
+class X { static String longestRepeatedSubstring ( String str ) { int n = str . length ( ) ; int LCSRe [ ] [ ] = new int [ n + 1 ] [ n + 1 ] ; String res = " " ; int res_length = 0 ; int i , index = 0 ; if ( res_length > 0 ) { for ( i = index - res_length + 1 ; i <= index ; i ++ ) { res += str . charAt ( i - 1 ) ; } } return res ; }
+ }

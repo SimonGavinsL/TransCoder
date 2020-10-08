@@ -1,0 +1,1 @@
+static String longDivision ( String number , int divisor ) { String ans = " " ; int idx = 0 ; char [ ] num = number . toCharArray ( ) ; int temp = num [ idx ] - '0' ; idx += 1 ; while ( num . length > idx ) { ans += ( temp / divisor ) ; temp = ( temp % divisor ) * 10 + num [ idx ++ ] - '0' ; } return ans ; }

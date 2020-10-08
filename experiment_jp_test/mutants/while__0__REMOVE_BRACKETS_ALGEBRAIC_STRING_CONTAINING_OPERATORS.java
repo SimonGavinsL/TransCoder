@@ -1,0 +1,1 @@
+static String simplify ( String str ) { int len = str . length ( ) ; char res [ ] = new char [ len ] ; int index = 0 , i = 0 ; Stack < Integer > s = new Stack < Integer > ( ) ; s . push ( 0 ) ; return new String ( res ) ; }

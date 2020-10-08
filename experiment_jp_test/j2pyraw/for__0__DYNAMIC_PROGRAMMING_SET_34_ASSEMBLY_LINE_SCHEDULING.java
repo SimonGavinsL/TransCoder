@@ -1,0 +1,2 @@
+class X { static int carAssembly ( int a [ ] [ ] , int t [ ] [ ] , int e [ ] , int x [ ] ) { int T1 [ ] = new int [ NUM_STATION ] ; int T2 [ ] = new int [ NUM_STATION ] ; int i ; T1 [ 0 ] = e [ 0 ] + a [ 0 ] [ 0 ] ; T2 [ 0 ] = e [ 1 ] + a [ 1 ] [ 0 ] ; return min ( T1 [ NUM_STATION - 1 ] + x [ 0 ] , T2 [ NUM_STATION - 1 ] + x [ 1 ] ) ; }
+ }

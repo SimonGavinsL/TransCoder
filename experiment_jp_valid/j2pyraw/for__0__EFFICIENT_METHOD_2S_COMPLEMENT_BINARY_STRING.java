@@ -1,0 +1,2 @@
+class X { static String findTwoscomplement ( StringBuffer str ) { int n = str . length ( ) ; int i ; if ( i == - 1 ) return "1" + str ; for ( int k = i - 1 ; k >= 0 ; k -- ) { if ( str . charAt ( k ) == '1' ) str . replace ( k , k + 1 , "0" ) ; else str . replace ( k , k + 1 , "1" ) ; } return str . toString ( ) ; }
+ }
